@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+        }
+body{
+    font-family: sans-serif
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px; 
+    padding-bottom: 35px;
+}
+.cont{
+    background-image: 100%;
+    background-position: center;
+    background-image: url(img/Mask\ Group.svg);
+    flex-grow: 1;
+    background-repeat: no-repeat;
+}
+.head-cont{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.text-cont{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 49px;
+    max-width: 780px;
+    margin: 0px auto;
+}
+.img{
+    width: 300px;
+    padding-bottom: 56px;
+}
+.contacts_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sendusmessage{
+    background: #ffffff;
+    box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    margin: 57px 0px 96px;
+}
+.head_form{
+    letter-spacing: 0.04em;
+    padding-bottom: 48px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1f3f68;
+}
+.from{
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    width: 100%;
+    height: 72px;
+    font-size: 30px;
+}
+.text_form{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+.from_massage{
+    resize: none;
+    height: 144px;
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    width: 100%;
+    font-size: 30px;
+    padding: 21px;
+    
+}
+.byt{
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 23px 183px;
+    margin-top: 40px;
+}
+
+
+.top__box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.add{
+    margin-bottom: 40px;
+}
+.add-head{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+    letter-spacing: 0.04em;
+    padding-bottom: 24px;
+}
+.add-text{
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+}
+.phone{
+    margin-bottom: 40px;
+}
+.phone-head{
+    letter-spacing: 0.04em;
+    padding-bottom: 24px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1f3f68;
+}
+ol li a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1f3f68;
+  }
+.text-p::before{
+    content: url(img/phone.svg);
+    margin-right: 18px;
+  
+}
+
+.block-serv{
+    margin-bottom: 40px;
+}
+.onl{
+    letter-spacing: 0.04em;
+    padding-bottom: 24px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+}
+
+a{
+    text-decoration: none;
+    color: #1F3F68;
+}
+.footer{
+    padding-top: 91px;
+    margin-top: 112px;
+    background: #316099;
+}
+.top_footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.heading__int {
+    width: 340.96px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+.text-foter {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 96px;
+}
+.footer_info {
+    color: #FFFFFF;
+    display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  margin-left: 20px;
+  flex-basis: 33.3333%;
+  flex-grow: 1;
+}
+
+.footer_text {
+    width: 495px;
+}
+.hr {
+  opacity: 0.4;
+}
+
+.footor_top{
+    display: flex;
+  justify-content: space-between;
+}
+
+li{
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+.textprav{
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+padding: 64px 0px;
+}
+.botton{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #5a98d0;
+    padding: 15px 80px;
+    align-self: center;
+    text-decoration: none;
+}
+.footer_text-k{
+    max-width: 300px;
+}
+:placeholder-shown{
+    font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.2;
+padding-left: 36px;
+}
+.ph{
+    list-style: none;
+}
+.serv1::before{
+   content: url(img/site.svg);
+   margin-right: 18px;
+}
+.serv2::before{
+    content: url(img/email.svg);
+    margin-right: 18px;
+}
+
+
+@media (max-width: 1024px) {
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .contacts_form{
+        flex-direction: column;
+    }
+    .text-cont{
+        margin-bottom:  20px;
+       max-width: 520px;
+       min-height: 60px; 
+    }
+    .footer{
+        padding-top: 47px;
+    }
+    
+    .botton{
+    
+    padding: 4px 31px;
+    
+    }
+    .footer_info {
+    flex-direction: column;
+    }
+    .footer_text-k{
+        margin-bottom: 24px;
+    }
+    .text-foter {
+        
+        margin-bottom: 64px;
+    }
+}
+@media (max-width: 667px) {
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .footor_top{
+        flex-direction: column;
+        padding-bottom: 41px;
+    }
+    .footer_text{
+        width: 100%;
+    }
+    .heading__int{
+        width: 75%;
+        margin: 0 auto 32px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    }
+    .text-foter{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .textprav{
+        padding: 37px 15px;
+        text-align: center;
+    }
+    .menu{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .head-cont{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    }
+    .text-cont{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .byt{
+        width: 270px;
+        padding: 15px 
+    }
+    .footer{
+        margin-top: 32px;
+    }
+    .sendusmessage{
+        margin-bottom: 32px;
+    }
+}
